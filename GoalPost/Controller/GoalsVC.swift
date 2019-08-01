@@ -9,6 +9,8 @@
 import UIKit
 import CoreData
 
+let appdelegate = UIApplication.shared.delegate as? AppDelegate
+
 class GoalsVC: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
